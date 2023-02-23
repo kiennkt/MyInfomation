@@ -2,8 +2,17 @@ body {
     background-color: #006666;
     padding: 30px;
     color: aliceblue;
+    animation-name: kimtuankien;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
 }
-
+@keyframes kimtuankien {
+    to{
+        background-color: #009900;
+    }
+}
 .avatar img{
     border-radius: 100%;
     box-shadow: 38px 34px 36px -11px rgba(0,0,0,0.75);
@@ -13,6 +22,7 @@ body {
 .name {
     font-style: oblique;
     font-size: x-large;
+    
     
 }
 .button {
@@ -26,7 +36,7 @@ body {
     font-weight: 700;
     font-size: 18px;
     transition-duration: 1.2s;
-    transition-property: color;
+    transition-property: background-color;
     box-shadow: 38px 34px 36px -11px rgba(0,0,0,0.75);
     -webkit-box-shadow: 38px 34px 36px -11px rgba(0,0,0,0.75);
     -moz-box-shadow: 38px 34px 36px -11px rgba(0,0,0,0.75);
